@@ -1,0 +1,23 @@
+agent-support/opencode/git-ai.test.mjs
+  s_da1434d2315188::t_9bdc170e8ad689 68-114
+agent-support/opencode/git-ai.ts
+  s_da1434d2315188::t_bca2dd6e9d9fa4 20,31,288-296,449-457,464,496
+src/mdm/agents/opencode.rs
+  s_da1434d2315188::t_d6a78289393c71 302
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "development:1.7.3",
+  "base_commit_sha": "37f177f04e6fd3297d8a72e1cfc5b761ac549e93",
+  "prompts": {},
+  "sessions": {
+    "s_da1434d2315188": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07aa3-d9bf-7df3-9033-7c154a5e98d7",
+        "model": "unknown"
+      },
+      "human_author": "AI_BA <ai_ball@outlook.com>"
+    }
+  }
+}
