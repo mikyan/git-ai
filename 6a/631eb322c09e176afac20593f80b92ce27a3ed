@@ -1,0 +1,69 @@
+.github/workflows/opencode-type-check.yml
+  s_da1434d2315188::t_528b02459a32e1 41-43
+README.md
+  s_44c5edfcc0e177::t_8cc8601d1d007f 76-77
+agent-support/opencode/git-ai.test.mjs
+  s_da1434d2315188::t_d07d16c16670e3 1-164
+agent-support/opencode/git-ai.ts
+  s_0d230240c14730::t_108741652aaa79 25-26,30,49-51,114-117,178,193,234,243,263,281,283-286,439-449,462-464,468-470,476-477,483,485-486,489,502-504,511-514,520,523
+agent-support/opencode/package.json
+  s_da1434d2315188::t_5820fe988bc220 8
+docs/codearts.md
+  s_44c5edfcc0e177::t_5429a5d25f311c 1-113
+src/commands/checkpoint_agent/bash_tool.rs
+  s_da1434d2315188::t_f6abb6e2e3b68c 348-353,408
+src/commands/checkpoint_agent/presets/codearts.rs
+  s_da1434d2315188::t_5f2a36b55cb8f5 1-107
+src/commands/checkpoint_agent/presets/mod.rs
+  s_da1434d2315188::t_e374ee5454b1db 8,158
+src/commands/checkpoint_agent/presets/opencode.rs
+  s_da1434d2315188::t_c5197cb93c7d2c 56-69
+src/commands/git_ai_handlers.rs
+  s_da1434d2315188::t_198ffe442af860 327
+src/mdm/agents/codearts.rs
+  s_0d230240c14730::t_cb8310cffd2b1b 1-227
+src/mdm/agents/mod.rs
+  s_44c5edfcc0e177::t_3c75804505728d 4,22,44
+src/mdm/agents/opencode.rs
+  s_da1434d2315188::t_ed00be94c54945 330-331
+tests/integration/codearts.rs
+  s_44c5edfcc0e177::t_b82de3af94067d 1-332
+tests/integration/main.rs
+  s_da1434d2315188::t_b2ca5adddfaddd 44
+tests/integration/repos/test_file.rs
+  s_da1434d2315188::t_8334b36742b601 11
+tests/integration/repos/test_repo.rs
+  s_da1434d2315188::t_9058a0d8a7f238 1020
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "development:1.7.3",
+  "base_commit_sha": "6a631eb322c09e176afac20593f80b92ce27a3ed",
+  "prompts": {},
+  "sessions": {
+    "s_0d230240c14730": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07aa5-9162-77c3-9d0c-32a606679db6",
+        "model": "unknown"
+      },
+      "human_author": "AI_BA <ai_ball@outlook.com>"
+    },
+    "s_44c5edfcc0e177": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07aa5-21db-7201-8f39-4216f4a44c0b",
+        "model": "unknown"
+      },
+      "human_author": "AI_BA <ai_ball@outlook.com>"
+    },
+    "s_da1434d2315188": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07aa3-d9bf-7df3-9033-7c154a5e98d7",
+        "model": "unknown"
+      },
+      "human_author": "AI_BA <ai_ball@outlook.com>"
+    }
+  }
+}
