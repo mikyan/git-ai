@@ -1,0 +1,35 @@
+.github/workflows/opencode-type-check.yml
+  s_da1434d2315188::t_cb7c9cba46716a 17-20
+agent-support/opencode/git-ai.test.mjs
+  s_da1434d2315188::t_e494df99751754 7,36,38-39,71-179,228-242,320,324
+agent-support/opencode/git-ai.ts
+  s_da1434d2315188::t_9d63cbbcba43c9 24,33,61,67-79,81-83,88,152,158,298,434,439-444,476-478,484-495,497-516,522,544-546
+docs/codearts.md
+  s_da1434d2315188::t_237116e53058a9 26-33,46-47,58-62
+tests/integration/codearts.rs
+  s_64387fb3744a44::t_66712c6cc720b8 333-460
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "development:1.7.3",
+  "base_commit_sha": "58135acb3aedf02379d82bafac5947738e96a091",
+  "prompts": {},
+  "sessions": {
+    "s_64387fb3744a44": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07b16-a138-7cc3-b15a-ec5968aed0f6",
+        "model": "unknown"
+      },
+      "human_author": "AI_BA <ai_ball@outlook.com>"
+    },
+    "s_da1434d2315188": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07aa3-d9bf-7df3-9033-7c154a5e98d7",
+        "model": "unknown"
+      },
+      "human_author": "AI_BA <ai_ball@outlook.com>"
+    }
+  }
+}
