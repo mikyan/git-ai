@@ -1,0 +1,57 @@
+src/commands/checkpoint_agent/orchestrator.rs
+  s_da1434d2315188::t_2136314888128a 6,310,427-452
+  s_da1434d2315188::t_c767b69f4ebf93 453-454
+src/commands/checkpoint_agent/presets/codearts.rs
+  s_da1434d2315188::t_23e766ff09fcc2 7,25-41,110,134
+  s_da1434d2315188::t_ed411e634fae92 75-80
+  s_da1434d2315188::t_0c892cdddb24ec 5,42-63,71-74,81-83,95
+src/commands/checkpoint_agent/presets/mod.rs
+  s_da1434d2315188::t_2136314888128a 45,103-105
+  s_da1434d2315188::t_f85f06a5af3131 106-108
+src/commands/checkpoint_agent/presets/opencode.rs
+  s_da1434d2315188::t_23e766ff09fcc2 169
+agent-support/opencode/git-ai.ts
+  s_da1434d2315188::t_5dbaaf76d49e53 451,462-474
+  s_da1434d2315188::t_c9fcccff24bf36 23,62-76,311,579
+  s_da1434d2315188::t_65cdd3999371e1 475
+src/streams/agent.rs
+  s_da1434d2315188::t_23e766ff09fcc2 191,212-213
+tests/integration/codearts.rs
+  s_da1434d2315188::t_97ed815c70961e 322-324,330-331,339-347,355,357-359,364,383-384,396-399
+  s_da1434d2315188::t_c2262c5f50b0ee 202-209,316,321,332-338,356,365-367,369-370,372,379-382
+  s_da1434d2315188::t_cdf76c71a35029 4,8-9
+  s_da1434d2315188::t_ed411e634fae92 133-139,152-155,159-165,167-173,178-184,186-192,325-329,348-354,360-363,385-395,400-401
+  s_da1434d2315188::t_05afcaa4cb666f 130-132,140-151,156-158,166,174-177,185,193-195,402
+  s_da1434d2315188::t_d130e6d8a8d322 3,5,7,12,71-129,196-201,210-308,315,317-320
+  s_da1434d2315188::t_1354fa89572510 309-314,373-378
+  s_da1434d2315188::t_6ab7eea632439c 368,371,403
+src/daemon/control_api.rs
+  s_da1434d2315188::t_2136314888128a 3,16-20
+  s_da1434d2315188::t_2d465d54d144df 21
+docs/codearts.md
+  s_da1434d2315188::t_d60289d65add38 40-55,86-87
+  s_da1434d2315188::t_a216bd3c3a818c 34-39
+agent-support/opencode/git-ai.test.mjs
+  s_da1434d2315188::t_408ae6b6d76889 139-224
+  s_da1434d2315188::t_b5b37f06c798e9 5,16,28-29,45,55-137
+  s_da1434d2315188::t_dd1d6bbc3be75a 138
+src/daemon.rs
+  s_da1434d2315188::t_2136314888128a 7814-7830
+  s_da1434d2315188::t_177b35b472fca5 7831
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "development:1.7.3",
+  "base_commit_sha": "8cf1fb1f9639622036cecefb4db90a9dcc2fcef6",
+  "prompts": {},
+  "sessions": {
+    "s_da1434d2315188": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07aa3-d9bf-7df3-9033-7c154a5e98d7",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "AI_BA <ai_ball@outlook.com>"
+    }
+  }
+}
